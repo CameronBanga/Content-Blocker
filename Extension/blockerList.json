@@ -1,0 +1,22 @@
+[{
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "resource-type": ["script"],
+            "load-type": ["third-party"],
+        }
+    },
+
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.ad-unit"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "if-domain": ["gizmodo.com"]
+        }
+    },
+]
